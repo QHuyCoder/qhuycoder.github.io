@@ -1,85 +1,67 @@
-body {
-  font-family: 'Segoe UI', sans-serif;
-  background: #f8f9fa;
-  margin: 0;
-  padding: 0;
-  color: #333;
-  line-height: 1.6;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Crowbyte Company</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="header-top">
+      <img src="images/avatar.jpg" alt="Crowbyte Logo" class="logo" />
+      <h1 class="company-name">CROWBYTE COMPANY</h1>
+    </div>
+    <p class="slogan">"Your Data, Our Vision"</p>
 
-header {
-  text-align: center;
-  padding: 50px 20px;
-  background: linear-gradient(to right, #1e1e1e, #2c2c2c);
-  color: #fff;
-}
+    <div class="info-bar">
+      <div class="info-box" onclick="location.href='#';" title="Click to know more">Data Enthusiast
+        <div class="tooltip">Loves exploring data trends & tools</div>
+      </div>
+      <div class="info-box" onclick="location.href='#';" title="Click to know more">AI Learner
+        <div class="tooltip">Building with Machine Learning daily</div>
+      </div>
+      <div class="info-box" onclick="location.href='#';" title="Click to know more">Crowbyte Founder
+        <div class="tooltip">Creator of the Crowbyte brand</div>
+      </div>
+    </div>
+  </header>
 
-.avatar {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease;
-}
-.avatar:hover {
-  transform: scale(1.05);
-}
+  <!-- MAIN CONTENT AT BOTTOM -->
+  <main>
+    <section class="about">
+      <h2>About Me</h2>
+      <p>Hello! I'm passionate about data, AI, and creative digital ideas. Welcome to my portfolio!</p>
+    </section>
 
-main {
-  max-width: 900px;
-  margin: auto;
-  padding: 30px 20px;
-}
+    <section class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Python</li>
+        <li>Machine Learning</li>
+        <li>HTML/CSS</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </section>
 
-section {
-  margin-bottom: 50px;
-}
+    <section class="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Log Decoder</strong> - A Python tool to decode VNI keystrokes</li>
+        <li><strong>AI Chatbot</strong> - Built with GPT API and Flask</li>
+      </ul>
+    </section>
 
-h2 {
-  color: #005fa3;
-  border-bottom: 2px solid #007acc;
-  padding-bottom: 5px;
-  margin-bottom: 20px;
-}
+    <section class="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:huy.vq61205@outlook.com">huy.vq61205@outlook.com</a></p>
+      <p>GitHub: <a href="https://github.com/qhuycoder" target="_blank">@qhuycoder</a></p>
+    </section>
+  </main>
 
-ul {
-  list-style: none;
-  padding: 0;
-}
-ul li {
-  padding: 10px 0;
-  transition: background 0.2s ease;
-}
-.project-list li:hover {
-  background: #e6f4ff;
-  border-radius: 6px;
-}
-
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #eaeaea;
-  color: #444;
-  font-size: 14px;
-}
-
-a {
-  color: #007acc;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
-
-@media (max-width: 600px) {
-  .avatar {
-    width: 100px;
-    height: 100px;
-  }
-  header h1 {
-    font-size: 24px;
-  }
-  header p {
-    font-size: 14px;
-  }
-}
+  <footer>
+    <p>© 2025 Crowbyte</p>
+  </footer>
+</body>
+</html>
