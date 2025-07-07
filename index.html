@@ -2,62 +2,66 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Crowbyte Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Crowbyte Company</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- HEADER -->
   <header>
-    <img src="images/avatar.jpg" alt="Avatar" class="avatar" />
-    <h1>CROWBYTE COMPANY</h1>
-    <p>🚀 Data Visionaries | AI Innovators | Empowering the Future</p>
+    <div class="header-top">
+      <img src="images/avatar.jpg" alt="Crowbyte Logo" class="logo" />
+      <h1 class="company-name">CROWBYTE COMPANY</h1>
+    </div>
+    <p class="slogan">"Your Data, Our Vision"</p>
+
+    <div class="info-bar">
+      <div class="info-box" onclick="location.href='#';" title="Click to know more">Data Enthusiast
+        <div class="tooltip">Loves exploring data trends & tools</div>
+      </div>
+      <div class="info-box" onclick="location.href='#';" title="Click to know more">AI Learner
+        <div class="tooltip">Building with Machine Learning daily</div>
+      </div>
+      <div class="info-box" onclick="location.href='#';" title="Click to know more">Crowbyte Founder
+        <div class="tooltip">Creator of the Crowbyte brand</div>
+      </div>
+    </div>
   </header>
 
+  <!-- MAIN CONTENT AT BOTTOM -->
   <main>
     <section class="about">
       <h2>About Me</h2>
-      <p>
-        Hello! I'm passionate about data, AI, and creative digital ideas. I
-        founded <strong>Crowbyte</strong> to bring powerful, intelligent tools
-        into real-world applications.
-      </p>
+      <p>Hello! I'm passionate about data, AI, and creative digital ideas. Welcome to my portfolio!</p>
     </section>
 
     <section class="skills">
       <h2>Skills</h2>
-      <ul class="skill-list">
+      <ul>
         <li>Python</li>
         <li>Machine Learning</li>
         <li>HTML/CSS</li>
         <li>Git & GitHub</li>
-        <li>Flask API</li>
       </ul>
     </section>
 
     <section class="projects">
       <h2>Projects</h2>
-      <ul class="project-list">
-        <li>
-          <strong>🧠 Log Decoder</strong> – A Python tool to decode Vietnamese keystrokes in VNI
-        </li>
-        <li>
-          <strong>🤖 AI Chatbot</strong> – Built with OpenAI GPT API + Flask + JS UI
-        </li>
+      <ul>
+        <li><strong>Log Decoder</strong> - A Python tool to decode VNI keystrokes</li>
+        <li><strong>AI Chatbot</strong> - Built with GPT API and Flask</li>
       </ul>
     </section>
 
     <section class="contact">
       <h2>Contact</h2>
       <p>Email: <a href="mailto:huy.vq61205@outlook.com">huy.vq61205@outlook.com</a></p>
-      <p>
-        GitHub:
-        <a href="https://github.com/qhuycoder" target="_blank">@qhuycoder</a>
-      </p>
+      <p>GitHub: <a href="https://github.com/qhuycoder" target="_blank">@qhuycoder</a></p>
     </section>
   </main>
 
   <footer>
-    <p>© 2025 Crowbyte • Your Data, Our Vision</p>
+    <p>© 2025 Crowbyte</p>
   </footer>
 </body>
 </html>
