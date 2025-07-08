@@ -81,3 +81,24 @@ footer p.copyright {
   .nav-menu { flex-wrap:wrap; justify-content:center;}
   .hero h2 { font-size:28px; }
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  margin: 0;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  background: url('images/footer-bg.jpg') no-repeat center/cover;
+  color: #fff;
+  padding: 40px 20px 20px;
+  margin-top: auto;
+}
+
