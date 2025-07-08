@@ -103,11 +103,12 @@ header {
 .hero p {
   font-size: 18px;
   color: #ddd;
-  margin-bottom: 30px;
+  margin: 0 auto 30px auto; /* Canh giữa + giữ khoảng cách dưới */
   max-width: 700px;
-  margin: auto;
 }
 .btn-primary {
+  display: inline-block;
+  margin-top: 10px;
   padding: 12px 30px;
   background: #00d8ff;
   color: #fff;
@@ -116,6 +117,7 @@ header {
   font-size: 16px;
   transition: background 0.3s;
 }
+
 .btn-primary:hover {
   background: #008fb3;
 }
