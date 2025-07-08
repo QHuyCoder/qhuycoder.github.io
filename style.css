@@ -185,19 +185,25 @@ footer p.copyright {
   }
 }
 
-.rgb-text {
-  font-size: 32px;
+.rgb-glow {
+  font-size: 48px;
   font-weight: bold;
-  background: linear-gradient(90deg, red, orange, yellow, green, cyan, blue, violet);
-  background-size: 400% 100%;
+  background: linear-gradient(270deg, #ff0000, #00ff00, #0000ff, #ff0000);
+  background-size: 600% 600%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: rainbow 5s linear infinite;
-  text-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+  animation: glow-rgb 6s ease infinite;
+  text-shadow:
+    0 0 5px rgba(255,255,255,0.2),
+    0 0 10px rgba(0,216,255,0.4),
+    0 0 20px rgba(0,216,255,0.4);
+  letter-spacing: 3px;
 }
 
-@keyframes rainbow {
+@keyframes glow-rgb {
   0% { background-position: 0% 50%; }
-  100% { background-position: 100% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
+
 
